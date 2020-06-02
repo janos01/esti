@@ -9,4 +9,4 @@ $tomb = array(
 
 $conn = connectDb();
 var_dump(insertItem($conn, $tomb));
-close($conn);
+closeDb($conn);

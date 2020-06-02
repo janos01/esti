@@ -9,6 +9,7 @@ function connectDb() {
   if(!$conn) {
     die("Hiba! A kapcsolódás sikertelen!");
   }
+  mysqli_set_charset($conn, 'utf8');
   return $conn;
 }
 
