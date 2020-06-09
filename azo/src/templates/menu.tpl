@@ -10,7 +10,7 @@
       <a href="lista.php">Lista</a>
     </li>
     <li>
-      <a href="felvesz.php">Hozzáad</a>
+      <a href="felveszUrlap.php">Hozzáad</a>
     </li>
   </ul>
 </div>
