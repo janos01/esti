@@ -38,7 +38,7 @@ EOT;
 function getBalance($conn) {
   $sql = "select sum(penz) as balance from tarca";
   $sor = 0;
-  if(mysqli_query($conn, $sql)) {
+  if($res = mysqli_query($conn, $sql)) {
     $sor = mysqli_fetch_assoc($res);
   }else {
     echo "Hiba! " . mysqli_error($conn);
